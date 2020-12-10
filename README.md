@@ -11,5 +11,5 @@ MongoDB access :
 
 Démarrer l'API :
 
-Installer NPM => npm install
-Lancer Nodemon server => nodemon server
+- Installer NPM => npm install
+- Lancer Nodemon server => nodemon server
