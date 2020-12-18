@@ -6,8 +6,8 @@ TheHottestReviews account :
 
 MongoDB access :
 
-- Super admin => Miskeyz / password : mM07122020
-- admin Read & Write SoPekocko Only => SoPekocko / password : sP07122020
+- Super admin => SoPekocko / password : sP07122020
+- Restricted admin => SoPekockoRestricted / password : spR07122020
 
 Démarrer l'API :
 
