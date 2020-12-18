@@ -1,7 +1,6 @@
 const Sauces = require('../models/Sauces');
 const fs = require('fs');
-const { db } = require('../models/Sauces');
-const formValidation = require('../middleware/form');
+const mongoMask = require('mongo-mask');
 
 const regex = /^[A-Za-z0-9-,.?:;!çéèà()&\s]+$/;
 
@@ -81,7 +80,6 @@ exports.postLike = (req, res, next) =>
     switch(like)
     {
         case -1:
-          console.log('case -1');
             property =
             {
                 $push: { usersDisliked: userId },
